@@ -29,9 +29,9 @@ app.get('/setup', function (req, res) {
 
     // create a sample user
     var nick = new User({
-        name: 'kgangadhar',
+        name: 'druthi',
         password: 'narutoshippudin',
-        admin: true
+        admin: false
     });
 
     // save the sample user
@@ -57,7 +57,7 @@ apiRoutes.get('/', function (req, res) {
 
 // route to return all users (GET http://localhost:8080/api/users)
 apiRoutes.get('/users', function (req, res) {
-    User.find({}, function (err, users) {
+    User.find({ }, function (err, users) {
         res.json(users);
     });
 });
