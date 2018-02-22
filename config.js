@@ -1,6 +1,6 @@
 module.exports = {
 
     'secret': 'ramataranamaka',
-    'database': 'mongodb://localhost:27017/jwtoken'
-
+    'database': 'mongodb://kgangadhar:takanami1643@ds245478.mlab.com:45478/users'
+    // mongodb://<dbuser>:<dbpassword>@ds245478.mlab.com:45478/jwt_users
 };
