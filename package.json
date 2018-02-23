@@ -24,8 +24,14 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "good": "^8.1.0",
+    "hapi": "^16.0.0",
+    "hapi-swagger": "^6.0.0",
+    "inert": "^4.1.x",
+    "joi": "^13.1.2",
     "jsonwebtoken": "^8.1.1",
     "mongoose": "^5.0.6",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "vision": "^4.1.x"
   }
 }
